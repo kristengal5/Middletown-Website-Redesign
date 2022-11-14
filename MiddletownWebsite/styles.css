@@ -1,0 +1,991 @@
+/*Kristen Gallagher*/
+
+a{
+	text-decoration:  none;
+	color: black;
+}
+
+a:hover{
+	color: #023F79;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+body, html {
+  	margin: 0;
+  	padding: 0;
+  	width: 100%;
+  	height: 100%;
+}
+
+button{
+	width: 45px;
+	height: 60px;
+	position: absolute;
+	border: none;
+}
+
+iframe{
+	float:left; 
+	content-align: center;
+	margin-bottom:2%
+}
+
+img{
+	float: left;
+}
+
+li{
+	text-decoration:  none;
+	color: black;
+}
+
+li:hover{
+	color: #023F79;
+}
+
+ul {
+  	list-style: none;
+  	padding: 0;
+  	margin: 0;
+}
+
+video{
+	height:180vh; 
+	width: 100%; 
+	object-fit: fill; 
+	position: absolute;
+	overflow: none;
+	max-height: 700px;
+}
+
+
+#bar{
+	width: .2%;
+	height: 40px;
+	padding-top: 10px;
+	background-color: #014A8E;
+}
+
+.bluesection{
+	background: #FFF28D;  
+	width:100%;
+	background: #B4CFEB;
+	padding-top: 150px; 
+	margin-top:520px; 
+}
+
+.box, .boxA, .boxB, .boxC, .boxD, .boxF, .explore{
+	display:  flex;
+    justify-content: center;
+    align-items:  center;
+}
+
+#businesses{
+	background: url(https://upload.wikimedia.org/wikipedia/commons/6/69/Reverse_icon_2283510.svg);
+	transform: rotate(270deg);
+	background-color: transparent;
+	background-size: 60px;
+	background-repeat: no-repeat;
+	margin-left: -430px;
+}
+
+#businesses:focus{
+	background: url(https://upload.wikimedia.org/wikipedia/commons/6/69/Reverse_icon_2283510.svg);
+	transform: rotate(180deg);
+	background-color: transparent;
+	background-size: 60px;
+	background-repeat: no-repeat;
+	margin-left: -430px;
+}
+
+.calendar{
+	position:relative; 
+	margin-top:40px; 
+	margin-left:4%;
+	text-align: center;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
+.containerimg:hover .overlay {
+	opacity: 1;
+}
+
+.content {
+	padding: 1em;
+}
+
+#explore{
+	height: 65px;
+	width: 20%;
+	font-size: 20px;
+	background-color: #EE9B1F;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding-left: 2px;
+	padding-top: 14px;
+	padding-right: 2px;
+	text-align: center;
+	display:  flex;
+    justify-content: center;
+    align-items:  center;
+}
+
+.footer{
+	float:left; 
+	margin-bottom:2%;
+	text-align: center;
+	width: 100%;
+}
+
+.greensection{
+	background: #88AB4F; 
+	width:100%;
+	height: 900px;
+}
+
+.header__menu {
+	display: none;
+}
+
+.iconsbottom{
+	margin:4%; 
+	margin-top: 2%;
+	padding-bottom: 4%;
+	position:relative; 
+	float:left; 
+	display:inline-block;
+}
+
+.logobottom{
+	float: left; 
+	margin: 4%; 
+	margin-top: 3%; 
+	margin-bottom: 0%;
+	position:relative; 
+	margin-left: 9%;
+	display:inline-block;
+}
+
+.magnifying{
+	padding-left:87%; 
+	z-index: 99;
+	border:10px solid #014A8E;
+	background-color: white;
+}
+
+#myImage{
+	height: 700px;
+}
+
+.newsimages{
+	text-align: center;
+	content-align: center;
+}
+
+.orangesection{
+	background: #EE9B1F; 
+	width:100%;
+}
+
+.orangesectiontext{
+	text-align:center;
+	margin-bottom:10%;
+}
+
+#orangetitleexplore{
+	font-size: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.overlay{
+	position: absolute;
+	width: 300px;
+	margin-left: 0;
+	height: 198px;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: black;
+}
+
+#parks{
+	background: url(https://upload.wikimedia.org/wikipedia/commons/6/69/Reverse_icon_2283510.svg);
+	transform: rotate(270deg);
+	background-color: transparent;
+	background-size: 60px;
+	background-repeat: no-repeat;
+	margin-left: -545px;
+}
+
+#parks:focus{
+	background: url(https://upload.wikimedia.org/wikipedia/commons/6/69/Reverse_icon_2283510.svg);
+	transform: rotate(180deg);
+	background-color: transparent;
+	background-size: 60px;
+	background-repeat: no-repeat;
+	margin-left: -545px;
+}
+
+#restaurants{
+	background: url(https://upload.wikimedia.org/wikipedia/commons/6/69/Reverse_icon_2283510.svg);
+	transform: rotate(270deg);
+	background-color: transparent;
+	background-size: 60px;
+	background-repeat: no-repeat;
+	margin-left: -300px;
+}
+
+#restaurants:focus{
+	background: url(https://upload.wikimedia.org/wikipedia/commons/6/69/Reverse_icon_2283510.svg);
+	transform: rotate(180deg);
+	background-color: transparent;
+	background-size: 60px;
+	background-repeat: no-repeat;
+	margin-left: -300px;
+}
+
+.runningpic{
+	margin-top: 1%;
+	z-index: 99;
+	border:2px solid black; 
+	position: absolute;
+	display:block;
+}
+
+.search{
+	height: 120px;
+	width: 60%;
+	z-index: 99;
+	margin-left: 0%;
+	margin-top: 35%;
+	position: absolute;	
+}
+
+.searchinterior{
+	height: 120px;
+	width: 60%;
+	z-index: 99;
+	margin-left: 0%;
+	margin-top: 30%;
+	position: absolute;	
+}
+
+.smalltext{
+	color: black;
+	font-size: 98%;
+	text-align: center;
+	content-align: center;
+	margin-left:30%; 
+	width:100%; 
+}
+
+.spacer{
+	width: 7%;
+}
+
+.spacerfive{
+	height: 220px;
+}
+
+.spacerfour{
+	width: 1%;
+}
+
+.spacerthree{
+	height: 70px;
+}
+
+.spacertwo{
+	width: 2%;
+}
+
+.texthoveroverlay{
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	z-index: 99;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform:  translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.titles{
+	margin-top: 115px;
+	margin-bottom: 50px;
+	font-size: 50px;
+	font-weight: bold;
+	display: inline-block;
+	width: 100%;
+}
+
+#township{
+	color: #014A8E; 
+	font-size:22px;
+	display: inline-block;
+	padding-left: 10px;
+}
+
+#townshiptwo{
+	color: #014A8E; 
+	font-size:24px;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+.nav__item {
+	margin-top: 2px;
+  	box-sizing: border-box;
+  	display: inline;
+  	width: 10%;
+  	text-align: center;
+  	line-height: 24px;
+  	padding: 24px;
+  	margin-right: 20px;
+  	margin-left: 20px;
+  	overflow: visible;
+}
+
+.nav__itembar {
+  	box-sizing: border-box;
+  	display: inline;
+  	width: .2%;
+  	text-align: left;
+  	line-height: 24px;
+  	padding: 2px;
+  	margin-right: 2px;
+  	margin-left: 2px;
+  	overflow: wrap;
+}
+
+.nav__list {
+  	width: 100%;
+  	padding: 0;
+  	margin: 0;
+}
+
+#video_overlaybutton{
+	position: absolute;
+	width: 13%;
+	font-size: 120%;
+	background-color: #014A8E;
+	z-index: 80;
+	top: 430px;
+	right: 20px;
+	text-align: center;
+	padding-top: 20px;
+	color: white;
+	margin:10%; 
+	padding-bottom:2%;
+	margin-top: 150px;
+
+}
+
+#video_overlaywelcome{
+	position: absolute;
+	width: 60%;
+	background-color: #FFF28D;
+	z-index: 80;
+	top: 430px;
+	left: 2px;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 130%;
+	font-style: italic;
+	color: #014A8E;
+	margin:10%; 
+	margin-top: 150px;
+	padding-bottom:2%;
+}
+
+.videowidth{
+	width: 100%;
+}
+
+.whitesectionbottom{
+	margin: auto; 
+	width: 100%; 
+	margin-top: 20px; 
+	background: white
+}
+
+#wrapvid{
+	height: 75vh;
+	width: 100%;
+	object-fill: fill;
+}
+
+.yellowsection{
+	background: #FFF28D; 
+	padding-top: 150px; 
+	margin-top:520px; 
+	width:100%;
+}
+
+
+
+
+
+@media screen and (min-width: 360px) and (max-width: 449px){
+	#businesses{
+		transform: rotate(180deg);
+		margin-left: -250px;
+		margin-top: 51px;
+		z-index: 99;
+		max-height: 8%;
+		max-width: 5%;
+	}
+	#businesses:focus{
+		transform: rotate(270deg);
+		margin-left: -250px;
+		z-index: 99;
+		margin-top: 47px;
+		max-height: 8%;
+		max-width: 5%;
+	}
+	#myImage{
+		margin-top: 120px;
+		margin-left: -200px;
+		height: 493px;
+	}
+	#parks{
+		transform: rotate(180deg);
+		margin-left: -250px;
+		z-index: 99;
+		max-height: 8%;
+		max-width: 5%;
+		margin-top: 22px;
+	}
+	#parks:focus{
+		transform: rotate(270deg);
+		margin-left: -250px;
+		z-index: 99;
+		margin-top: 17px;
+		max-height: 8%;
+		max-width: 5%;	
+	}
+	#restaurants{
+		transform: rotate(180deg);
+		background-size: 60px;
+		margin-left: -250px;
+		margin-top: 86px;
+		z-index: 99;
+		max-height: 8%;
+		max-width: 5%;
+	}
+	#restaurants:focus{
+		transform: rotate(270deg);
+		margin-left: -250px;
+		z-index: 99;
+		margin-top: 82px;
+		max-height: 8%;
+		max-width: 5%;
+	}
+	.sidebar{
+		transform: rotate(90deg);
+		margin-left: 25%;
+		margin-top: -20%;
+		height: 300px;
+		width: 100px;
+	}
+}
+
+
+@media screen and (min-width: 450px) and (max-width: 490px){
+	#businesses{
+		transform: rotate(180deg);
+		margin-left: -250px;
+		margin-top: 38px;
+		z-index: 99;
+		max-height: 8%;
+		max-width: 5%;
+	}
+	#businesses:focus{
+		transform: rotate(270deg);
+		margin-left: -250px;
+		z-index: 99;
+		margin-top: 33px;
+		max-height: 8%;
+		max-width: 5%;
+	}
+	#myImage{
+		margin-top: 105px;
+		margin-left: -200px;
+		height: 493px;
+	}
+	#parks{
+		transform: rotate(180deg);
+		margin-left: -250px;
+		z-index: 99;
+		max-height: 8%;
+		max-width: 5%;
+		margin-top: 5px;
+	}
+	#parks:focus{
+		transform: rotate(270deg);
+		margin-left: -250px;
+		z-index: 99;
+		margin-top: 2px;
+		max-height: 8%;
+		max-width: 5%;	
+	}
+	#restaurants{
+		transform: rotate(180deg);
+		background-size: 60px;
+		margin-left: -250px;
+		margin-top: 75px;
+		z-index: 99;
+		max-height: 8%;
+		max-width: 5%;
+
+	}
+	#restaurants:focus{
+		transform: rotate(270deg);
+		margin-left: -250px;
+		z-index: 99;
+		margin-top: 70px;
+		max-height: 8%;
+		max-width: 5%;
+	}
+	.sidebar{
+		transform: rotate(90deg);
+		margin-left: 15%;
+		margin-top: -20%;
+		height: 300px;
+		width: 100px;
+	}
+}
+
+
+@media screen and (min-width: 491px) and (max-width: 533px){
+	#businesses{
+		transform: rotate(180deg);
+		margin-left: -250px;
+		margin-top: 30px;
+		z-index: 99;
+		max-height: 8%;
+		max-width: 5%;
+	}
+	#businesses:focus{
+		transform: rotate(270deg);
+		margin-left: -250px;
+		z-index: 99;
+		margin-top: 25px;
+		max-height: 8%;
+		max-width: 5%;
+	}
+	#myImage{
+		margin-top: 100px;
+		margin-left: -200px;
+		height: 493px;
+	}
+	#parks{
+		transform: rotate(180deg);
+		margin-left: -250px;
+		z-index: 99;
+		max-height: 8%;
+		max-width: 5%;
+	}
+	#parks:focus{
+		transform: rotate(270deg);
+		margin-left: -250px;
+		z-index: 99;
+		margin-top: -5px;
+		max-height: 8%;
+		max-width: 5%;
+	}
+	#restaurants{
+		transform: rotate(180deg);
+		background-size: 60px;
+		margin-left: -250px;
+		margin-top: 65px;
+		z-index: 99;
+		max-height: 8%;
+		max-width: 5%;
+	}
+	#restaurants:focus{
+		transform: rotate(270deg);
+		margin-left: -250px;
+		z-index: 99;
+		margin-top: 60px;
+		max-height: 8%;
+		max-width: 5%;
+	}
+	.sidebar{
+		transform: rotate(90deg);
+		margin-left: 15%;
+		margin-top: -20%;
+		height: 300px;
+		width: 100px;
+	}
+}
+
+
+@media screen and (min-width: 534px) and (max-width: 565px){
+	#businesses{
+		transform: rotate(180deg);
+		margin-left: -250px;
+		margin-top: 20px;
+		z-index: 99;
+		max-height: 8%;
+		max-width: 5%;
+	}
+	#businesses:focus{
+		transform: rotate(270deg);
+		margin-left: -250px;
+		z-index: 99;
+		margin-top: 17px;
+		max-height: 8%;
+		max-width: 5%;
+	}
+	#myImage{
+		margin-top: 90px;
+		margin-left: -200px;
+		height: 493px;
+	}
+	#parks{
+		transform: rotate(180deg);
+		margin-left: -250px;
+		z-index: 99;
+		max-height: 8%;
+		max-width: 5%;
+		margin-top: -12px;
+	}
+	#parks:focus{
+		transform: rotate(270deg);
+		margin-left: -250px;
+		z-index: 99;
+		margin-top: -15px;
+		max-height: 8%;
+		max-width: 5%;	
+	}
+	#restaurants{
+		transform: rotate(180deg);
+		background-size: 60px;
+		margin-left: -250px;
+		margin-top: 55px;
+		z-index: 99;
+		max-height: 8%;
+		max-width: 5%;
+	}
+	#restaurants:focus{
+		transform: rotate(270deg);
+		margin-left: -250px;
+		z-index: 99;
+		margin-top: 50px;
+		max-height: 8%;
+		max-width: 5%;
+	}
+	.sidebar{
+		transform: rotate(90deg);
+		margin-left: 15%;
+		margin-top: -20%;
+		height: 300px;
+		width: 100px;
+	}
+}
+
+@media screen and (max-width: 549px) {
+	iframe{
+		width: 90%;
+	}
+	video{
+	  	margin-top: 50px;
+	}
+	video, .again{
+		margin-top: 0;
+	}
+	#bar{
+	  	display: none;
+	} 
+	.calendar{
+		margin-left: -50px;
+		padding: 0px;
+	}
+	#colorful{
+	  	margin-bottom: 70px;
+	}
+	#explore{
+		height: 65px;
+		width: 100%;
+		font-size: 20px;
+		background-color: #EE9B1F;
+		margin: auto;
+		margin-top: 30px;
+		margin-bottom: 10px;
+		padding-left: 2px;
+		padding-top: 14px;
+		padding-right: 2px;
+		text-align: center;
+		display:  flex;
+	    justify-content: center;
+	    align-items:  center;
+	}
+	.first{
+	  	display: none;
+	}
+	.forsmall{
+	  	font-size: 10px;
+	  	padding-bottom: 20px;
+	}
+	.header__menu {
+	    display: inline-block;
+	    margin-left: 80%;
+	    margin-top: 5px;
+	    right: 0;
+	}
+	.header__menu img {
+	  	width: 50px;
+	    height: 50px;
+	    z-index: 99;
+	    display: inline-block;
+	}
+	.nav {
+		z-index: 99;
+   		background-color: #fff;
+    	width: 100px;
+    	position: absolute;
+    	-webkit-transform: translate(-300px, 0);
+    	transform: translate(-300px, 0);
+    	transition: transform 0.3s ease;
+  	}
+  	.nav__item {
+	    display: list-item;
+	    margin-bottom: 40px;
+	    padding-right: 400px;
+	    text-align: center;
+	    width: 300px;
+	    margin-left: 6%;
+	    margin-top: -40px;
+	    white-space: nowrap;
+	}
+  	.nav.open {
+	    -webkit-transform: translate(0, 0);
+	    transform: translate(0, 0);
+	    width: 220px;
+	    font-size: 19px;
+	    padding-top: -300px;
+	    z-index: 99;
+	}
+	#orangetitleexplore{
+		font-size: 30px;
+	}
+	.search{
+	  	padding-top: 950px;
+	  	margin-right: 70px;
+	}
+	.searchinterior{
+		margin-top: 1050px;
+		margin-right: 70px;
+	}
+	.second{
+	  	display: block;
+	}
+  	#socialmediaicons{
+	  	margin-left: 20%;
+	}
+  	#township,#logoimage{
+  		-webkit-transform: translate(-400px, 0);
+    	transform: translate(-400px, 0);
+  	}
+  	#video_overlaybutton{
+	 	display: none;
+	}
+	#video_overlaywelcome{
+	  	display: none;
+	} 
+}
+
+@media screen and (min-width: 550px){
+	#colorful{
+  		height: 65px;
+		width: 20%;
+		font-size: 20px;
+		background-color: #EE9B1F;
+		margin: auto;
+		margin-top: 30px;
+		margin-bottom: 10px;
+		padding-left: 2px;
+		padding-top: 14px;
+		padding-right: 2px;
+		text-align: center;
+		display:  flex;
+    	justify-content: center;
+    	align-items:  center;
+	}
+	#townshiptwo{
+  		display: none;
+  	}
+}
+
+
+@media screen and (min-width: 566px) and (max-width: 606px){
+	#businesses{
+		transform: rotate(180deg);
+		background-size: 60px;
+		margin-left: -250px;
+		margin-top: 85px;
+		z-index: 99;
+		max-height: 4.8%;
+		max-width: 4.8%;
+	}
+	#businesses:focus{
+		transform: rotate(270deg);
+		margin-left: -250px;
+		z-index: 99;
+		margin-top: 75px;
+		max-height: 4.8%;
+		max-width: 4.8%;
+	}
+	#myImage{
+		margin-top: 150px;
+		margin-left: -267px;
+	}
+	#parks{
+		transform: rotate(180deg);
+		margin-left: -250px;
+		z-index: 99;
+		margin-top: 48px;
+		max-height: 4.8%;
+		max-width: 4.8%;
+	}
+	#parks:focus{
+		transform: rotate(270deg);
+		margin-left: -250px;
+		z-index: 99;
+		margin-top: 40px;
+		max-height: 4.8%;
+		max-width: 4.8%;	
+	}
+	#restaurants{
+		transform: rotate(180deg);
+		background-size: 60px;
+		margin-left: -250px;
+		margin-top: 123px;
+		z-index: 99;
+		max-height: 4.8%;
+		max-width: 4.8%;
+	}
+	#restaurants:focus{
+		transform: rotate(270deg);
+		margin-left: -250px;
+		z-index: 99;
+		margin-top: 115px;
+		max-height: 4.8%;
+		max-width: 4.8%;
+	}
+	.sidebar{
+		transform: rotate(90deg);
+		margin-left: 24%;
+		margin-top: -20%;
+		height: 428px;
+	}
+}
+
+
+@media screen and (min-width: 607px) and (max-width: 640px){
+	#businesses{
+		transform: rotate(180deg);
+		background-size: 60px;
+		margin-left: -250px;
+		margin-top: 78px;
+		z-index: 99;
+		max-height: 4.8%;
+		max-width: 4.8%;
+	}
+	#businesses:focus{
+		transform: rotate(270deg);
+		margin-left: -250px;
+		z-index: 99;
+		margin-top: 70px;
+		max-height: 4.8%;
+		max-width: 4.8%;
+	}
+	#myImage{
+		margin-top: 145px;
+		margin-left: -267px;
+	}
+	#parks{
+		transform: rotate(180deg);
+		margin-left: -250px;
+		z-index: 99;
+		margin-top: 45px;
+		max-height: 4.8%;
+		max-width: 4.8%;
+	}
+	#parks:focus{
+		transform: rotate(270deg);
+		margin-left: -250px;
+		z-index: 99;
+		margin-top: 38px;
+		max-height: 4.8%;
+		max-width: 4.8%;
+	}
+	#restaurants{
+		transform: rotate(180deg);
+		background-size: 60px;
+		margin-left: -250px;
+		margin-top: 115px;
+		z-index: 99;
+		max-height: 4.8%;
+		max-width: 4.8%;
+	}
+	#restaurants:focus{
+		transform: rotate(270deg);
+		margin-left: -250px;
+		z-index: 99;
+		margin-top: 108px;
+		max-height: 4.8%;
+		max-width: 4.8%;
+	}
+	.sidebar{
+		transform: rotate(90deg);
+		margin-left: 24%;
+		margin-top: -20%;
+		height: 428px;
+	}
+}
+
+
+@media screen and (max-width: 700px) {
+	.nav__item{
+		width: 14%;
+		font-size: 95%;
+	}
+
+}
+
+
+
+@media screen and (max-width: 1100px) {
+	.calendar{
+		padding-left: 20%;
+	}
+	.smalltext{
+		-webkit-transform: translate(-400px, 300px);
+    	transform: translate(-400px, 300px);
+	}
+}
+
+
+@media screen and (max-width: 1360px) {
+	#bar{
+		display: none;
+	}
+  }

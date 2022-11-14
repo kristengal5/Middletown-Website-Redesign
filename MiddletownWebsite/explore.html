@@ -1,0 +1,181 @@
+<!--Kristen Gallagher-->
+
+<!--PLEASE NOTE: If possible, please view in Chrome. My hover effects of the navigation elements and News and New Additions images do not work properly in Firefox. My hamburger also does not work properly in Firefox. Additionally, my image manipulation is a video manipulation (since I have a video instead of a hero image). (We talked about these points in class.) Thank you for understanding.-->
+
+<html>
+	<head>
+		<title>Middletown Township - Explore</title>
+		<link type="text/css" rel="stylesheet" href="styles.css"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="description" content="Middletown Township Website - Explore">
+  	<meta name="keywords" content="Middletown, restaurants, parks, services, additions">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+ 		<a href="index.html">
+ 			<div id="townshiptwo">Middletown Township</div>
+ 		</a>
+		<header class="header">
+ 			<a id="menu" class="header__menu">
+ 				<img style="margin-top:7%" src="./images/hamburger.png" alt="three black horizontal lines">
+ 			</a>
+ 		</header>
+ 		<nav id="drawer" class="nav">
+ 			<ul class="nav__list">
+ 				<a href="index.html">
+ 					<li id="logoimage">
+ 						<img style="margin-top:.5%"src="./images/midtownsmall.png" alt="logo of Middletown Township">
+ 					</li>
+ 				</a>
+ 				<a href="index.html">
+ 					<div id="township">Middletown Township</div>
+ 				</a>
+        <li class="nav__item" id="townsh" style="display: inline-block; margin-left:6%">Departments</li>
+        <li class="nav__itembar" id="bar" style="width:.2%"></li>
+        <li class="nav__item" style="display: inline-block">Governments</li>
+        <li class="nav__itembar" id="bar" style="width:.2%"></li>
+        <li class="nav__item" style="display: inline-block">How do I...</li>
+        <li class="nav__itembar" id="bar" style="width:.2%; margin-right:45px"></li>
+        <li class="nav__item"  style="display: inline-block" id="colorful">
+        	<a href="explore.html">Explore Middletown</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+    	<div height="5px"></div>
+			<div class="container">
+
+				<div class="videowidth" display="block">
+					<div style="height: 20px"></div>
+					<div class="orangesection">
+						<div id="orangetitleexplore" color="orange">Explore Middletown</div>
+						<div class="wrapvid" display="block">
+							<div class="boxA" style="float:left">
+								<div id="video_overlaywelcome">Welcome to Middletown, the biggest small town in New Jersey</div>
+							</div>
+							<div class="boxB" style="float:left">
+								<div id="video_overlaybutton">Where to go</div>
+							</div>
+							<div class="spacertwo"></div>
+							<div class="boxC">
+								<div class="searchinterior">
+									<img src="./images/searchtwo.jpeg" alt="magnifying glass for search bar" class="magnifying">
+								</div>
+							</div>
+						</div>
+					</div>
+					<video display="none" class="second" margin-top="0px" controls loop autoplay muted>
+						<source class="second" src="./images/interiorsmall.mp4" type="video/mp4">
+					</video>
+					<video display="block" class="first" margin-top="0px" controls loop autoplay muted>
+						<source class="first" src="./images/interiorvideo.mp4" type="video/mp4">
+					</video>
+				</div>
+
+
+				<div class="bluesection">
+					<div class="titles" style="position: relative;text-align: center; background-color: #014A8E; padding-bottom: 30px; padding-top:30px; font-size: 30px; color:white">Discover Middletown Parks, Businesses, & Restaurants</div>
+					<div class="container" style="padding-top: 50px;justify-content: center; position: relative; margin-left:5%; position:relative">
+						<button id="parks" top=550px z-index=99 
+              onclick=parks();>
+         		</button>
+         		<button id="businesses" top=550px z-index=99 
+              onclick=businesses();>
+         		</button>
+         		<button autofocus id="restaurants"
+                  onclick=restaurants();>
+         		</button>
+						<img class="sidebar" alt="sidebar with restaurant, business, and park options" height="700px"padding-top="500px" position="relative"  margin-left="20px"; display="inline-block" src="./images/sidebar.png"> 
+						<img id="myImage" height="775px" alt="image of featured Middletown location logos and reviews" src="./images/restaurants.png" >
+					</div>
+					<div class="spacerthree"></div>
+				</div>
+				
+				
+
+				<div class="orangesection">
+					<div class="titles" style="position: relative;text-align: center; background-color: #BE7B17; padding-bottom: 30px; padding-top:30px; font-size:40px">New Additions</div>
+					<div class="container" style="padding-top: 50px;justify-content: center">
+						<div class="containerimg">
+							<div class="boxA" style="float:left; margin-bottom:10px"><img src="./images/shoprite.png" alt="Grand Opening of Shoprite">
+								<div class="overlay">
+									<div class="texthoveroverlay">ShopRite opens new location in King's Commons</div>
+								</div>
+							</div>
+						</div>
+						<div class="spacerfour"></div>
+						<div class="containerimg">
+							<div class="boxA" style="float:left; margin-bottom:10px"><img src="./images/junction.png" alt="Junction Boutique image">
+								<div class="overlay">
+									<div class="texthoveroverlay">Junction Boutique Gift Shop opens in Leonardo</div>
+								</div>
+							</div>
+						</div>
+						<div class="spacerfour"></div>
+						<div class="containerimg">
+							<div class="boxA" style="float:left; margin-bottom:10px"><img src="./images/phystherapy.png" alt="Joint Physical Therapy Grand Opening">
+								<div class="overlay">
+									<div class="texthoveroverlay">Joint Physical Therapy and Sports Medicine opens on Old Country Road</div>
+								</div>
+							</div>
+						</div>
+						<div class="spacerfour"></div>
+						<div class="containerimg">
+							<div class="boxA" style="float:left; margin-bottom:10px"><img src="./images/wecare.png" alt="We Care Adult Care ceremony celebrating their re-opening">
+								<div class="overlay">
+									<div class="texthoveroverlay">We Care Adult Care reopens after closures due to COVID-19 restrictions</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="spacerfive"></div>
+				</div>
+
+				<div class="whitesectionbottom">
+					<div width=100% justify-content=center margin-left=100px>
+						<div>
+							<img src="./images/middletownlogo.jpeg" alt="Middletown Township logo" class="logobottom">
+						</div>
+						<div class="text" style="width: 22%;  margin: 4%; margin-top: 7%; position:relative; float:left; display:inline-block;">1 Kings Highway, Middletown, NJ, 07748</div>
+						<div class="boxC" style="margin:4%; margin-top:  7%; position:relative; float:left; display:inline-block;">732-615-2000</div>
+						<div>
+							<img id="socialmediaicons" src="./images/socialmedias.jpeg" alt="social media icons" class="iconsbottom">
+						</div>
+					</div>
+					<div class="footer">Photos courtesy of: middletownnj.com, patch.com, app.com </div>
+				</div>	
+				
+			</div>
+		</main>
+		<script>
+      var menu = document.querySelector('#menu');
+      var main = document.querySelector('main');
+      var drawer = document.querySelector('.nav');
+      menu.addEventListener('click', function(e) {
+        drawer.classList.toggle('open');
+        e.stopPropagation();
+      });
+      main.addEventListener('click', function() {
+        drawer.classList.remove('open');
+      });
+      function parks(){
+        document.getElementById('myImage')
+        .src="./images/parks.png";
+    	}
+    	function businesses(){
+        document.getElementById('myImage')
+        .src="./images/business.png";
+    	}
+    	function restaurants(){
+        document.getElementById('myImage')
+        .src="./images/restaurants.png";
+    	}
+    	window.location = "#";
+
+    </script>
+	</body>
+</html>
