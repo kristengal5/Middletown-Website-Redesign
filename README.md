@@ -1,2 +1,2 @@
 # Middletown-Website-Redesign
-I created this website in my Advanced Web Design course.
+I created this website in my Advanced Web Design course as a Senior. I used HTML, CSS, and JavaScript. My goal was to improve the current Middletown website's functionality and design. This was my first time coding a website for both mobile and desktop using media queries. My main challenge in this project was implementing JavaScript for certain functions, including my hamburger menu. 
